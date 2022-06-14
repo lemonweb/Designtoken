@@ -536,7 +536,12 @@
         "轴线 axisLine": {
           "value": "rgba({中性色.黑色 Black}, .4)",
           "type": "color",
-          "description": "分隔线 splitLine"
+          "description": "轴线 axisLine"
+        },
+        "刻度 Tick": {
+          "value": "rgba({中性色.黑色 Black}, .4)",
+          "type": "color",
+          "description": "刻度 Tick"
         },
         "分隔线 splitLine": {
           "value": "rgba({中性色.黑色 Black}, .1)",
