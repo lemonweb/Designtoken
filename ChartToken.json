@@ -1,1 +1,1879 @@
-
+{
+  "JMT+": {
+    "默认值": {
+      "default": {
+        "value": "{圆角规格.base}",
+        "type": "borderRadius"
+      }
+    },
+    "圆角规格": {
+      "无": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "base": {
+        "value": "2",
+        "type": "borderRadius"
+      },
+      "2x": {
+        "value": "{圆角规格.base} * 2",
+        "type": "borderRadius"
+      },
+      "4x": {
+        "value": "{圆角规格.base} * 4",
+        "type": "borderRadius"
+      },
+      "8x": {
+        "value": "$圆角规格.base * 8",
+        "type": "borderRadius"
+      },
+      "max": {
+        "value": "50%",
+        "type": "borderRadius"
+      }
+    },
+    "常用规格": {
+      "xs": {
+        "↕ vertical": {
+          "value": "{间隔.规格.2x}",
+          "type": "spacing"
+        },
+        "↔ horizontal": {
+          "value": "{常用规格.xs.↕ vertical}*2",
+          "type": "spacing"
+        }
+      },
+      "sm": {
+        "↕ vertical": {
+          "value": "{间隔.规格.base} *3",
+          "type": "spacing"
+        },
+        "↔ horizontal": {
+          "value": "{常用规格.sm.↕ vertical}*2",
+          "type": "spacing"
+        }
+      },
+      "default": {
+        "↕ vertical": {
+          "value": "{间隔.规格.4x} ",
+          "type": "spacing"
+        },
+        "↔ horizontal": {
+          "value": "{常用规格.default.↕ vertical}*2",
+          "type": "spacing"
+        }
+      },
+      "lg": {
+        "↕ vertical": {
+          "value": "{间隔.规格.5x}",
+          "type": "spacing"
+        },
+        "↔ horizontal": {
+          "value": "{常用规格.lg.↕ vertical}*2",
+          "type": "spacing"
+        }
+      }
+    },
+    "tag标签": {
+      "xs": {
+        "↕ vertical": {
+          "value": "1",
+          "type": "spacing"
+        },
+        "↔ horizontal": {
+          "value": "8",
+          "type": "spacing"
+        }
+      },
+      "sm": {
+        "↕ vertical": {
+          "value": "{间隔.规格.base} ",
+          "type": "spacing"
+        },
+        "↔ horizontal": {
+          "value": "{tag标签.sm.↕ vertical}*4",
+          "type": "spacing"
+        }
+      },
+      "default": {
+        "↕ vertical": {
+          "value": "{间隔.规格.base} ",
+          "type": "spacing"
+        },
+        "↔ horizontal": {
+          "value": "{tag标签.default.↕ vertical}*4",
+          "type": "spacing"
+        }
+      },
+      "lg": {
+        "↕ vertical": {
+          "value": "{间隔.规格.base}+1",
+          "type": "spacing"
+        },
+        "↔ horizontal": {
+          "value": "{tag标签.lg.↕ vertical}*4",
+          "type": "spacing"
+        }
+      }
+    },
+    "间隔": {
+      "规格": {
+        "none": {
+          "value": "0",
+          "type": "spacing"
+        },
+        "base": {
+          "value": "2",
+          "type": "spacing"
+        },
+        "2x": {
+          "value": "{间隔.规格.base} *2",
+          "type": "spacing"
+        },
+        "4x": {
+          "value": "{间隔.规格.base} *4",
+          "type": "spacing"
+        },
+        "5x": {
+          "value": "{间隔.规格.base} *5",
+          "type": "spacing"
+        },
+        "6x": {
+          "value": "{间隔.规格.base} *6",
+          "type": "spacing"
+        },
+        "8x": {
+          "value": "{间隔.规格.base} *8",
+          "type": "spacing"
+        },
+        "10x": {
+          "value": "{间隔.规格.base} *10",
+          "type": "spacing"
+        },
+        "12x": {
+          "value": "{间隔.规格.base} *12",
+          "type": "spacing"
+        }
+      },
+      "默认值": {
+        "default": {
+          "value": "{间隔.规格.base}+3",
+          "type": "spacing"
+        }
+      }
+    },
+    "基础单位": {
+      "网格单元": {
+        "value": "5",
+        "type": "other"
+      },
+      "基础色位置": {
+        "value": "8",
+        "type": "other"
+      }
+    },
+    "线条 Border": {
+      "base": {
+        "value": "1",
+        "type": "borderWidth"
+      },
+      "none": {
+        "value": "0",
+        "type": "borderWidth"
+      }
+    },
+    "投影 DropShadow": {
+      "浅 light": {
+        "shadow-light-↓": {
+          "value": {
+            "x": "0",
+            "y": "{阴影 Shadow.偏移距离 offset}",
+            "blur": "{阴影 Shadow.模糊程度 blur}",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.light})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-light-↑": {
+          "value": {
+            "x": "0",
+            "y": "-{阴影 Shadow.偏移距离 offset}",
+            "blur": "{阴影 Shadow.模糊程度 blur}",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.light})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-light-←": {
+          "value": {
+            "x": "-{阴影 Shadow.偏移距离 offset}",
+            "y": "0",
+            "blur": "{阴影 Shadow.模糊程度 blur}",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.light})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-light-→": {
+          "value": {
+            "x": "{阴影 Shadow.偏移距离 offset}",
+            "y": "0",
+            "blur": "{阴影 Shadow.模糊程度 blur}",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.light})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "基础 base": {
+        "shadow-base-↓": {
+          "value": {
+            "x": "0",
+            "y": "{阴影 Shadow.偏移距离 offset}*2",
+            "blur": "{阴影 Shadow.模糊程度 blur}*2",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.base})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-base-↑": {
+          "value": {
+            "x": "0",
+            "y": "-{阴影 Shadow.偏移距离 offset}*2",
+            "blur": "{阴影 Shadow.模糊程度 blur}*2",
+            "spread": "{阴影 Shadow.扩散强度 spread}",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.base})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-base-←": {
+          "value": {
+            "x": "-{阴影 Shadow.偏移距离 offset}*2",
+            "y": "0",
+            "blur": "{阴影 Shadow.模糊程度 blur}*2",
+            "spread": "{阴影 Shadow.扩散强度 spread}",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.base})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-base-→": {
+          "value": {
+            "x": "{阴影 Shadow.偏移距离 offset}*2",
+            "y": "0",
+            "blur": "{阴影 Shadow.模糊程度 blur}*2",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.base})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "深 dark": {
+        "shadow-dark-↓": {
+          "value": {
+            "x": "0",
+            "y": "{阴影 Shadow.偏移距离 offset}*2",
+            "blur": "{阴影 Shadow.模糊程度 blur}*2",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.dark})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-dark-↑": {
+          "value": {
+            "x": "0",
+            "y": "-{阴影 Shadow.偏移距离 offset}*2",
+            "blur": "{阴影 Shadow.模糊程度 blur}*2",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.dark})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-dark-←": {
+          "value": {
+            "x": "-{阴影 Shadow.偏移距离 offset}*2",
+            "y": "0",
+            "blur": "{阴影 Shadow.模糊程度 blur}*2",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.dark})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-dark-→": {
+          "value": {
+            "x": "{阴影 Shadow.偏移距离 offset}*2",
+            "y": "0",
+            "blur": "{阴影 Shadow.模糊程度 blur}*2",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.dark})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "深 darker": {
+        "shadow-darker-↓": {
+          "value": {
+            "x": "0",
+            "y": "{阴影 Shadow.偏移距离 offset}*3",
+            "blur": "{阴影 Shadow.模糊程度 blur}*3",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.dark})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-darker-↑": {
+          "value": {
+            "x": "0",
+            "y": "-{阴影 Shadow.偏移距离 offset}*3",
+            "blur": "{阴影 Shadow.模糊程度 blur}*3",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.dark})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-darker-←": {
+          "value": {
+            "x": "-{阴影 Shadow.偏移距离 offset}*3",
+            "y": "0",
+            "blur": "{阴影 Shadow.模糊程度 blur}*3",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.dark})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "shadow-darker-→": {
+          "value": {
+            "x": "{阴影 Shadow.偏移距离 offset}*3",
+            "y": "0",
+            "blur": "{阴影 Shadow.模糊程度 blur}*3",
+            "spread": "0",
+            "color": "rgba(0,0,0, {阴影 Shadow.色彩透明度.dark})",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
+    },
+    "阴影 Shadow": {
+      "偏移距离 offset": {
+        "value": "2",
+        "type": "other"
+      },
+      "扩散强度 spread": {
+        "value": "2",
+        "type": "other"
+      },
+      "模糊程度 blur": {
+        "value": "4",
+        "type": "other"
+      },
+      "色彩透明度": {
+        "light": {
+          "value": "{阴影 Shadow.色彩透明度.base}/2",
+          "type": "other"
+        },
+        "base": {
+          "value": "0.1",
+          "type": "other"
+        },
+        "dark": {
+          "value": "{阴影 Shadow.色彩透明度.base}*2",
+          "type": "other"
+        }
+      }
+    }
+  },
+  "├ Color": {
+    "常用色": {
+      "品牌色": {
+        "常规 [ --color-primary ]": {
+          "value": "{基础色板.Blue.Blue [8]}",
+          "type": "color",
+          "description": "--color-primary-normal"
+        },
+        "Primary-悬停": {
+          "value": "{基础色板.Blue.Blue 7}",
+          "type": "color",
+          "description": "--color-primary-hover"
+        },
+        "Primary-点击": {
+          "value": "{基础色板.Blue.Blue 9}",
+          "type": "color",
+          "description": "--color-primary-artive"
+        },
+        "Primary-背景": {
+          "value": "{基础色板.Blue.Blue 0}",
+          "type": "color",
+          "description": "--color-primary-bg"
+        }
+      },
+      "文本": {
+        " --color-text-title": {
+          "value": "rgba({常用色.中性色.黑色 Black}, .9)",
+          "type": "color",
+          "description": "文本-标题色"
+        }
+      },
+      "文本色": {
+        "正文 textDefault": {
+          "value": "rgba({常用色.中性色.黑色 Black}, .85)",
+          "type": "color",
+          "description": "--color-text-default"
+        },
+        "注释 textSecondary": {
+          "value": "rgba({常用色.中性色.黑色 Black}, .4)",
+          "type": "color",
+          "description": "--color-text-secondary"
+        },
+        "禁用 textDisable": {
+          "value": "rgba({常用色.中性色.黑色 Black}, .3)",
+          "type": "color",
+          "description": "--color-text-disable"
+        },
+        "反白 Dark": {
+          "value": "{常用色.中性色.白色 White}",
+          "type": "color",
+          "description": "--color-text-dark"
+        },
+        "链接 Link": {
+          "value": "{常用色.品牌色.常规 [ --color-primary ]}",
+          "type": "color",
+          "description": "--color-text-link"
+        }
+      },
+      "线条": {
+        "Line-深": {
+          "value": "{基础色板.Gray.Gray 2}",
+          "type": "color",
+          "description": "--color-border-shade"
+        },
+        "Line-默认": {
+          "value": "{基础色板.Gray.Gray 1}",
+          "type": "color",
+          "description": "--color-border-base"
+        },
+        "Line- 浅": {
+          "value": "{基础色板.Gray.Gray 0}",
+          "type": "color",
+          "description": "--color-border-tint"
+        }
+      },
+      "中性色": {
+        "黑色 Black": {
+          "value": "rgba(0,0,0, 1)",
+          "type": "color",
+          "description": "--color-black-normal"
+        },
+        "白色 White": {
+          "value": "rgba(255,255,255, 1)",
+          "type": "color",
+          "description": "--color-white-normal"
+        }
+      },
+      "功能色": {
+        "默认 default": {
+          "Default-背景": {
+            "value": "{基础色板.Gray.Gray 1}",
+            "type": "color",
+            "description": "--color-default-normal"
+          },
+          "Default-悬停": {
+            "value": "{基础色板.Gray.Gray 0}",
+            "type": "color",
+            "description": "--color-default-hover"
+          },
+          "Default-点击": {
+            "value": "{基础色板.Gray.Gray 2}",
+            "type": "color",
+            "description": "--color-default-active"
+          },
+          "Disable-禁用": {
+            "value": "{基础色板.Gray.Gray 0}",
+            "type": "color",
+            "description": "--color-default-disable"
+          }
+        },
+        "通知 info": {
+          "Info-常规": {
+            "value": "{基础色板.Dark Blue.Dark Blue [8]}",
+            "type": "color",
+            "description": "--color-info-normal"
+          },
+          "Info-悬停": {
+            "value": "{基础色板.Dark Blue.Dark Blue 7}",
+            "type": "color",
+            "description": "--color-info-hover"
+          },
+          "Info-点击": {
+            "value": "{基础色板.Dark Blue.Dark Blue 9}",
+            "type": "color",
+            "description": "--color-info-artive"
+          },
+          "Info-背景": {
+            "value": "{基础色板.Dark Blue.Dark Blue 0}",
+            "type": "color",
+            "description": "--color-info-bg"
+          }
+        },
+        "成功 success": {
+          "Success-常规": {
+            "value": "{基础色板.Green.Green [8]}",
+            "type": "color",
+            "description": "--color-success-normal"
+          },
+          "Success-悬停": {
+            "value": "{基础色板.Green.Green 7}",
+            "type": "color",
+            "description": "--color-success-hover"
+          },
+          "Success-点击": {
+            "value": "{基础色板.Green.Green 9}",
+            "type": "color",
+            "description": "--color-success-artive"
+          },
+          "Success-背景": {
+            "value": "{基础色板.Green.Green 0}",
+            "type": "color",
+            "description": "--color-success-bg"
+          }
+        },
+        "警告 waring": {
+          "Waring-常规": {
+            "value": "{基础色板.Amber.Amber [8]}",
+            "type": "color",
+            "description": "--color-warning-normal"
+          },
+          "Waring-悬停": {
+            "value": "{基础色板.Amber.Amber 7}",
+            "type": "color",
+            "description": "--color-warning-hover"
+          },
+          "Waring-点击": {
+            "value": "{基础色板.Amber.Amber 9}",
+            "type": "color",
+            "description": "--color-warning-artive"
+          },
+          "Waring-背景": {
+            "value": "{基础色板.Amber.Amber 0}",
+            "type": "color",
+            "description": "--color-warning-bg"
+          }
+        },
+        "危险 danger": {
+          "Danger-常规": {
+            "value": "{基础色板.Red.Red [8]}",
+            "type": "color",
+            "description": "--color-danger-normal"
+          },
+          "Danger-悬停": {
+            "value": "{基础色板.Red.Red 7}",
+            "type": "color",
+            "description": "--color-danger-hover"
+          },
+          "Danger-点击": {
+            "value": "{基础色板.Red.Red 9}",
+            "type": "color",
+            "description": "--color-danger-artive"
+          },
+          "Danger-背景": {
+            "value": "{基础色板.Red.Red 0}",
+            "type": "color",
+            "description": "--color-danger-bg"
+          }
+        }
+      }
+    },
+    "基础色板": {
+      "Blue": {
+        "Blue 0": {
+          "value": "#f2f7fd",
+          "type": "color"
+        },
+        "Blue 1": {
+          "value": "#e6f1fc",
+          "type": "color"
+        },
+        "Blue 2": {
+          "value": "#cce3fa",
+          "type": "color"
+        },
+        "Blue 3": {
+          "value": "#b3d5f7",
+          "type": "color"
+        },
+        "Blue 4": {
+          "value": "#8cbff3",
+          "type": "color"
+        },
+        "Blue 5": {
+          "value": "#66abf0",
+          "type": "color"
+        },
+        "Blue 6": {
+          "value": "#4d9ded",
+          "type": "color"
+        },
+        "Blue 7": {
+          "value": "#2687e9",
+          "type": "color"
+        },
+        "Blue [8]": {
+          "value": "#0073e6",
+          "type": "color",
+          "description": "--color-blue-base"
+        },
+        "Blue 9": {
+          "value": "#0067ce",
+          "type": "color"
+        },
+        "Blue 10": {
+          "value": "#005cb8",
+          "type": "color"
+        },
+        "Blue 11": {
+          "value": "#0050a0",
+          "type": "color"
+        },
+        "Blue 12": {
+          "value": "#00458a",
+          "type": "color"
+        },
+        "Blue 13": {
+          "value": "#003972",
+          "type": "color"
+        },
+        "Blue 14": {
+          "value": "#002850",
+          "type": "color"
+        }
+      },
+      "Dark Blue": {
+        "Dark Blue 0": {
+          "value": "#f5f7fb",
+          "type": "color"
+        },
+        "Dark Blue 1": {
+          "value": "#edeff7",
+          "type": "color"
+        },
+        "Dark Blue 2": {
+          "value": "#dae0f0",
+          "type": "color"
+        },
+        "Dark Blue 3": {
+          "value": "#c8d0e8",
+          "type": "color"
+        },
+        "Dark Blue 4": {
+          "value": "#acb9dd",
+          "type": "color"
+        },
+        "Dark Blue 5": {
+          "value": "#91a2d2",
+          "type": "color"
+        },
+        "Dark Blue 6": {
+          "value": "#7f92cb",
+          "type": "color"
+        },
+        "Dark Blue 7": {
+          "value": "#637bc0",
+          "type": "color"
+        },
+        "Dark Blue [8]": {
+          "value": "#4864b5",
+          "type": "color"
+        },
+        "Dark Blue 9": {
+          "value": "#4059a2",
+          "type": "color"
+        },
+        "Dark Blue 10": {
+          "value": "#395090",
+          "type": "color"
+        },
+        "Dark Blue 11": {
+          "value": "#32457e",
+          "type": "color"
+        },
+        "Dark Blue 12": {
+          "value": "#2b3c6c",
+          "type": "color"
+        },
+        "Dark Blue 13": {
+          "value": "#23315a",
+          "type": "color"
+        },
+        "Dark Blue 14": {
+          "value": "#19223f",
+          "type": "color"
+        }
+      },
+      "Light Blue": {
+        "Light Blue 0": {
+          "value": "#f5faff",
+          "type": "color"
+        },
+        "Light Blue 1": {
+          "value": "#ecf5ff",
+          "type": "color"
+        },
+        "Light Blue 2": {
+          "value": "#d8ebff",
+          "type": "color"
+        },
+        "Light Blue 3": {
+          "value": "#c6e2ff",
+          "type": "color"
+        },
+        "Light Blue 4": {
+          "value": "#a8d3ff",
+          "type": "color"
+        },
+        "Light Blue 5": {
+          "value": "#8cc5ff",
+          "type": "color"
+        },
+        "Light Blue 6": {
+          "value": "#79bbff",
+          "type": "color"
+        },
+        "Light Blue 7": {
+          "value": "#5cadff",
+          "type": "color"
+        },
+        "Light Blue [8]": {
+          "value": "#409fff",
+          "type": "color"
+        },
+        "Light Blue 9": {
+          "value": "#398ee5",
+          "type": "color"
+        },
+        "Light Blue 10": {
+          "value": "#337fcc",
+          "type": "color"
+        },
+        "Light Blue 11": {
+          "value": "#2c6eb2",
+          "type": "color"
+        },
+        "Light Blue 12": {
+          "value": "#265f99",
+          "type": "color"
+        },
+        "Light Blue 13": {
+          "value": "#1f4f7f",
+          "type": "color"
+        },
+        "Light Blue 14": {
+          "value": "#163759",
+          "type": "color"
+        }
+      },
+      "Teal": {
+        "Teal 0": {
+          "value": "#f3fbfb",
+          "type": "color"
+        },
+        "Teal 1": {
+          "value": "#e7f8f8",
+          "type": "color"
+        },
+        "Teal 2": {
+          "value": "#d0f2f2",
+          "type": "color"
+        },
+        "Teal 3": {
+          "value": "#b8ebeb",
+          "type": "color"
+        },
+        "Teal 4": {
+          "value": "#95e2e2",
+          "type": "color"
+        },
+        "Teal 5": {
+          "value": "#72d8d8",
+          "type": "color"
+        },
+        "Teal 6": {
+          "value": "#5ad2d2",
+          "type": "color"
+        },
+        "Teal 7": {
+          "value": "#37c8c8",
+          "type": "color"
+        },
+        "Teal [8]": {
+          "value": "#14bfbf",
+          "type": "color"
+        },
+        "Teal 9": {
+          "value": "#11abab",
+          "type": "color"
+        },
+        "Teal 10": {
+          "value": "#109898",
+          "type": "color"
+        },
+        "Teal 11": {
+          "value": "#0d8585",
+          "type": "color"
+        },
+        "Teal 12": {
+          "value": "#0c7272",
+          "type": "color"
+        },
+        "Teal 13": {
+          "value": "#095f5f",
+          "type": "color"
+        },
+        "Teal 14": {
+          "value": "#064242",
+          "type": "color"
+        }
+      },
+      "Green": {
+        "Green 0": {
+          "value": "#f3fbf3",
+          "type": "color"
+        },
+        "Green 1": {
+          "value": "#e9f8e9",
+          "type": "color"
+        },
+        "Green 2": {
+          "value": "#d3f2d3",
+          "type": "color"
+        },
+        "Green 3": {
+          "value": "#beebbe",
+          "type": "color"
+        },
+        "Green 4": {
+          "value": "#9de29d",
+          "type": "color"
+        },
+        "Green 5": {
+          "value": "#7cd87d",
+          "type": "color"
+        },
+        "Green 6": {
+          "value": "#67d268",
+          "type": "color"
+        },
+        "Green 7": {
+          "value": "#46c847",
+          "type": "color"
+        },
+        "Green [8]": {
+          "value": "#26bf27",
+          "type": "color"
+        },
+        "Green 9": {
+          "value": "#22ab23",
+          "type": "color"
+        },
+        "Green 10": {
+          "value": "#1e981f",
+          "type": "color"
+        },
+        "Green 11": {
+          "value": "#1a851b",
+          "type": "color"
+        },
+        "Green 12": {
+          "value": "#167217",
+          "type": "color"
+        },
+        "Green 13": {
+          "value": "#125f13",
+          "type": "color"
+        },
+        "Green 14": {
+          "value": "#0d420d",
+          "type": "color"
+        }
+      },
+      "Light Green": {
+        "Light Green 0": {
+          "value": "#fafdf3",
+          "type": "color"
+        },
+        "Light Green 1": {
+          "value": "#f6fbe8",
+          "type": "color"
+        },
+        "Light Green 2": {
+          "value": "#edf7d0",
+          "type": "color"
+        },
+        "Light Green 3": {
+          "value": "#e5f3b9",
+          "type": "color"
+        },
+        "Light Green 4": {
+          "value": "#d8ed96",
+          "type": "color"
+        },
+        "Light Green 5": {
+          "value": "#cbe873",
+          "type": "color"
+        },
+        "Light Green 6": {
+          "value": "#c2e45d",
+          "type": "color"
+        },
+        "Light Green 7": {
+          "value": "#b5de39",
+          "type": "color"
+        },
+        "Light Green [8]": {
+          "value": "#a9d917",
+          "type": "color"
+        },
+        "Light Green 9": {
+          "value": "#97c214",
+          "type": "color"
+        },
+        "Light Green 10": {
+          "value": "#87ad12",
+          "type": "color"
+        },
+        "Light Green 11": {
+          "value": "#759710",
+          "type": "color"
+        },
+        "Light Green 12": {
+          "value": "#65820d",
+          "type": "color"
+        },
+        "Light Green 13": {
+          "value": "#546c0b",
+          "type": "color"
+        },
+        "Light Green 14": {
+          "value": "#3a4b08",
+          "type": "color"
+        }
+      },
+      "Yellow": {
+        "Yellow 0": {
+          "value": "#fffcf2",
+          "type": "color"
+        },
+        "Yellow 1": {
+          "value": "#fff9e6",
+          "type": "color"
+        },
+        "Yellow 2": {
+          "value": "#fff4cc",
+          "type": "color"
+        },
+        "Yellow 3": {
+          "value": "#ffeeb3",
+          "type": "color"
+        },
+        "Yellow 4": {
+          "value": "#ffe68c",
+          "type": "color"
+        },
+        "Yellow 5": {
+          "value": "#ffde67",
+          "type": "color"
+        },
+        "Yellow 6": {
+          "value": "#ffd84e",
+          "type": "color"
+        },
+        "Yellow 7": {
+          "value": "#ffd027",
+          "type": "color"
+        },
+        "Yellow [8]": {
+          "value": "#ffc802",
+          "type": "color"
+        },
+        "Yellow 9": {
+          "value": "#e5b301",
+          "type": "color"
+        },
+        "Yellow 10": {
+          "value": "#cca001",
+          "type": "color"
+        },
+        "Yellow 11": {
+          "value": "#b28b01",
+          "type": "color"
+        },
+        "Yellow 12": {
+          "value": "#997801",
+          "type": "color"
+        },
+        "Yellow 13": {
+          "value": "#7f6300",
+          "type": "color"
+        },
+        "Yellow 14": {
+          "value": "#594500",
+          "type": "color"
+        }
+      },
+      "Amber": {
+        "Amber 0": {
+          "value": "#fff9f3",
+          "type": "color"
+        },
+        "Amber 1": {
+          "value": "#fff3e8",
+          "type": "color"
+        },
+        "Amber 2": {
+          "value": "#ffe8d1",
+          "type": "color"
+        },
+        "Amber 3": {
+          "value": "#ffdcba",
+          "type": "color"
+        },
+        "Amber 4": {
+          "value": "#ffcb97",
+          "type": "color"
+        },
+        "Amber 5": {
+          "value": "#ffba75",
+          "type": "color"
+        },
+        "Amber 6": {
+          "value": "#ffae5e",
+          "type": "color"
+        },
+        "Amber 7": {
+          "value": "#ff9d3b",
+          "type": "color"
+        },
+        "Amber [8]": {
+          "value": "#ff8c19",
+          "type": "color"
+        },
+        "Amber 9": {
+          "value": "#e57d16",
+          "type": "color"
+        },
+        "Amber 10": {
+          "value": "#cc7014",
+          "type": "color"
+        },
+        "Amber 11": {
+          "value": "#b26111",
+          "type": "color"
+        },
+        "Amber 12": {
+          "value": "#99540f",
+          "type": "color"
+        },
+        "Amber 13": {
+          "value": "#7f450c",
+          "type": "color"
+        },
+        "Amber 14": {
+          "value": "#593008",
+          "type": "color"
+        }
+      },
+      "Orange": {
+        "Orange 0": {
+          "value": "#fef6f4",
+          "type": "color"
+        },
+        "Orange 1": {
+          "value": "#fdefea",
+          "type": "color"
+        },
+        "Orange 2": {
+          "value": "#fcdfd5",
+          "type": "color"
+        },
+        "Orange 3": {
+          "value": "#fbcfc1",
+          "type": "color"
+        },
+        "Orange 4": {
+          "value": "#f9b7a1",
+          "type": "color"
+        },
+        "Orange 5": {
+          "value": "#f7a082",
+          "type": "color"
+        },
+        "Orange 6": {
+          "value": "#f5906e",
+          "type": "color"
+        },
+        "Orange 7": {
+          "value": "#f3784e",
+          "type": "color"
+        },
+        "Orange [8]": {
+          "value": "#f26130",
+          "type": "color"
+        },
+        "Orange 9": {
+          "value": "#d9572b",
+          "type": "color"
+        },
+        "Orange 10": {
+          "value": "#c14d26",
+          "type": "color"
+        },
+        "Orange 11": {
+          "value": "#a84321",
+          "type": "color"
+        },
+        "Orange 12": {
+          "value": "#913a1c",
+          "type": "color"
+        },
+        "Orange 13": {
+          "value": "#783017",
+          "type": "color"
+        },
+        "Orange 14": {
+          "value": "#542110",
+          "type": "color"
+        }
+      },
+      "Red": {
+        "Red 0": {
+          "value": "#fdf4f4",
+          "type": "color"
+        },
+        "Red 1": {
+          "value": "#fceaea",
+          "type": "color"
+        },
+        "Red 2": {
+          "value": "#fad5d5",
+          "type": "color"
+        },
+        "Red 3": {
+          "value": "#f7c0c1",
+          "type": "color"
+        },
+        "Red 4": {
+          "value": "#f3a0a1",
+          "type": "color"
+        },
+        "Red 5": {
+          "value": "#f08182",
+          "type": "color"
+        },
+        "Red 6": {
+          "value": "#ed6d6d",
+          "type": "color"
+        },
+        "Red 7": {
+          "value": "#e94d4d",
+          "type": "color"
+        },
+        "Red [8]": {
+          "value": "#e62e2f",
+          "type": "color"
+        },
+        "Red 9": {
+          "value": "#ce292a",
+          "type": "color"
+        },
+        "Red 10": {
+          "value": "#b82425",
+          "type": "color"
+        },
+        "Red 11": {
+          "value": "#a02020",
+          "type": "color"
+        },
+        "Red 12": {
+          "value": "#8a1b1c",
+          "type": "color"
+        },
+        "Red 13": {
+          "value": "#721617",
+          "type": "color"
+        },
+        "Red 14": {
+          "value": "#501010",
+          "type": "color"
+        }
+      },
+      "Pink": {
+        "Pink 0": {
+          "value": "#fef6f8",
+          "type": "color"
+        },
+        "Pink 1": {
+          "value": "#fdeff3",
+          "type": "color"
+        },
+        "Pink 2": {
+          "value": "#fcdfe6",
+          "type": "color"
+        },
+        "Pink 3": {
+          "value": "#fbcfda",
+          "type": "color"
+        },
+        "Pink 4": {
+          "value": "#f9b7c7",
+          "type": "color"
+        },
+        "Pink 5": {
+          "value": "#f7a0b5",
+          "type": "color"
+        },
+        "Pink 6": {
+          "value": "#f590a9",
+          "type": "color"
+        },
+        "Pink 7": {
+          "value": "#f37897",
+          "type": "color"
+        },
+        "Pink [8]": {
+          "value": "#f26185",
+          "type": "color"
+        },
+        "Pink 9": {
+          "value": "#d95777",
+          "type": "color"
+        },
+        "Pink 10": {
+          "value": "#c14d6a",
+          "type": "color"
+        },
+        "Pink 11": {
+          "value": "#a8435c",
+          "type": "color"
+        },
+        "Pink 12": {
+          "value": "#913a4f",
+          "type": "color"
+        },
+        "Pink 13": {
+          "value": "#783042",
+          "type": "color"
+        },
+        "Pink 14": {
+          "value": "#54212e",
+          "type": "color"
+        }
+      },
+      "Purple": {
+        "Purple 0": {
+          "value": "#f9f8fc",
+          "type": "color"
+        },
+        "Purple 1": {
+          "value": "#f3f1fa",
+          "type": "color"
+        },
+        "Purple 2": {
+          "value": "#e8e4f4",
+          "type": "color"
+        },
+        "Purple 3": {
+          "value": "#ddd7ef",
+          "type": "color"
+        },
+        "Purple 4": {
+          "value": "#ccc3e8",
+          "type": "color"
+        },
+        "Purple 5": {
+          "value": "#bbafe0",
+          "type": "color"
+        },
+        "Purple 6": {
+          "value": "#b0a2db",
+          "type": "color"
+        },
+        "Purple 7": {
+          "value": "#9e8dd3",
+          "type": "color"
+        },
+        "Purple [8]": {
+          "value": "#8e7acc",
+          "type": "color"
+        },
+        "Purple 9": {
+          "value": "#7f6db7",
+          "type": "color"
+        },
+        "Purple 10": {
+          "value": "#7161a3",
+          "type": "color"
+        },
+        "Purple 11": {
+          "value": "#63558e",
+          "type": "color"
+        },
+        "Purple 12": {
+          "value": "#55497a",
+          "type": "color"
+        },
+        "Purple 13": {
+          "value": "#463c65",
+          "type": "color"
+        },
+        "Purple 14": {
+          "value": "#312a47",
+          "type": "color"
+        }
+      },
+      "Violet": {
+        "Violet 0": {
+          "value": "#f7f6fd",
+          "type": "color"
+        },
+        "Violet 1": {
+          "value": "#f0effc",
+          "type": "color"
+        },
+        "Violet 2": {
+          "value": "#e0defa",
+          "type": "color"
+        },
+        "Violet 3": {
+          "value": "#d1cef7",
+          "type": "color"
+        },
+        "Violet 4": {
+          "value": "#bab5f3",
+          "type": "color"
+        },
+        "Violet 5": {
+          "value": "#a39df0",
+          "type": "color"
+        },
+        "Violet 6": {
+          "value": "#948ded",
+          "type": "color"
+        },
+        "Violet 7": {
+          "value": "#7c74e9",
+          "type": "color"
+        },
+        "Violet [8]": {
+          "value": "#665ce6",
+          "type": "color"
+        },
+        "Violet 9": {
+          "value": "#5b52ce",
+          "type": "color"
+        },
+        "Violet 10": {
+          "value": "#5149b8",
+          "type": "color"
+        },
+        "Violet 11": {
+          "value": "#4740a0",
+          "type": "color"
+        },
+        "Violet 12": {
+          "value": "#3d378a",
+          "type": "color"
+        },
+        "Violet 13": {
+          "value": "#322d72",
+          "type": "color"
+        },
+        "Violet 14": {
+          "value": "#232050",
+          "type": "color"
+        }
+      },
+      "Indigo": {
+        "Indigo 0": {
+          "value": "#f4f4f7",
+          "type": "color"
+        },
+        "Indigo 1": {
+          "value": "#ebebf0",
+          "type": "color"
+        },
+        "Indigo 2": {
+          "value": "#d6d6e0",
+          "type": "color"
+        },
+        "Indigo 3": {
+          "value": "#c2c2d1",
+          "type": "color"
+        },
+        "Indigo 4": {
+          "value": "#a3a3ba",
+          "type": "color"
+        },
+        "Indigo 5": {
+          "value": "#8484a3",
+          "type": "color"
+        },
+        "Indigo 6": {
+          "value": "#707094",
+          "type": "color"
+        },
+        "Indigo 7": {
+          "value": "#51517c",
+          "type": "color"
+        },
+        "Indigo [8]": {
+          "value": "#333366",
+          "type": "color"
+        },
+        "Indigo 9": {
+          "value": "#2d2d5b",
+          "type": "color"
+        },
+        "Indigo 10": {
+          "value": "#282851",
+          "type": "color"
+        },
+        "Indigo 11": {
+          "value": "#232347",
+          "type": "color"
+        },
+        "Indigo 12": {
+          "value": "#1e1e3d",
+          "type": "color"
+        },
+        "Indigo 13": {
+          "value": "#191932",
+          "type": "color"
+        },
+        "Indigo 14": {
+          "value": "#111123",
+          "type": "color"
+        }
+      },
+      "Gray": {
+        "Gray 0": {
+          "value": "#f4f4f5",
+          "type": "color"
+        },
+        "Gray 1": {
+          "value": "#eaebec",
+          "type": "color"
+        },
+        "Gray 2": {
+          "value": "#d5d6d8",
+          "type": "color"
+        },
+        "Gray 3": {
+          "value": "#c0c3c6",
+          "type": "color"
+        },
+        "Gray 4": {
+          "value": "#a0a4a8",
+          "type": "color"
+        },
+        "Gray 5": {
+          "value": "#81868c",
+          "type": "color"
+        },
+        "Gray 6": {
+          "value": "#6c7279",
+          "type": "color"
+        },
+        "Gray 7": {
+          "value": "#4c535c",
+          "type": "color"
+        },
+        "Gray [8]": {
+          "value": "#2d3640",
+          "type": "color"
+        },
+        "Gray 9": {
+          "value": "#283039",
+          "type": "color"
+        },
+        "Gray 10": {
+          "value": "#242b33",
+          "type": "color"
+        },
+        "Gray 11": {
+          "value": "#242b33",
+          "type": "color"
+        },
+        "Gray 12": {
+          "value": "#1b2026",
+          "type": "color"
+        },
+        "Gray 13": {
+          "value": "#161a1f",
+          "type": "color"
+        },
+        "Gray 14": {
+          "value": "#0f1216",
+          "type": "color"
+        }
+      }
+    },
+    "主题化": {
+      "趋势定义": {
+        "上升": {
+          "value": "#ce292a",
+          "type": "color",
+          "description": "红升"
+        },
+        "下降": {
+          "value": "#19a683",
+          "type": "color",
+          "description": "红升绿降"
+        }
+      },
+      "表格 Table": {
+        "表头TH": {
+          "背景色": {
+            "value": "{基础色板.Gray.Gray 0}",
+            "type": "color",
+            "description": "table-th-bg-color"
+          },
+          "分隔线": {
+            "value": "{基础色板.Gray.Gray 2}",
+            "type": "color",
+            "description": "table-th-drivder-color"
+          }
+        }
+      }
+    }
+  },
+  "├ Typography": {
+    "fontFamilies": {
+      "CN": {
+        "value": "PingFang SC",
+        "type": "fontFamilies",
+        "description": "中文字体"
+      },
+      "EN": {
+        "value": "Helvetica",
+        "type": "fontFamilies",
+        "description": " 英文字体"
+      },
+      "Number": {
+        "value": "JDZhengHT-EN",
+        "type": "fontFamilies",
+        "description": "数值字体"
+      }
+    },
+    "lineHeights": {
+      "1": {
+        "value": "18",
+        "type": "lineHeights",
+        "description": "行高-等级-1"
+      },
+      "2": {
+        "value": "20",
+        "type": "lineHeights",
+        "description": "行高-等级-2"
+      },
+      "3": {
+        "value": "24",
+        "type": "lineHeights",
+        "description": "行高-等级-3"
+      },
+      "4": {
+        "value": "30",
+        "type": "lineHeights",
+        "description": "行高-等级-4"
+      },
+      "5": {
+        "value": "36",
+        "type": "lineHeights",
+        "description": "行高-等级-5"
+      },
+      "6": {
+        "value": "48",
+        "type": "lineHeights",
+        "description": "行高-等级-6"
+      },
+      "7": {
+        "value": "60",
+        "type": "lineHeights",
+        "description": "行高-等级-7"
+      }
+    },
+    "font-weight": {
+      "regular": {
+        "value": "400",
+        "type": "fontWeights",
+        "description": "常规体"
+      },
+      "bold": {
+        "value": "600",
+        "type": "fontWeights",
+        "description": "粗体"
+      }
+    },
+    "fontSize": {
+      "1": {
+        "value": "12",
+        "type": "fontSizes",
+        "description": "字号-等级-1"
+      },
+      "2": {
+        "value": "14",
+        "type": "fontSizes",
+        "description": "字号-等级-2"
+      },
+      "3": {
+        "value": "16",
+        "type": "fontSizes",
+        "description": "字号-等级-3"
+      },
+      "4": {
+        "value": "20",
+        "type": "fontSizes",
+        "description": "字号-等级-4"
+      },
+      "5": {
+        "value": "24",
+        "type": "fontSizes",
+        "description": "字号-等级-5"
+      },
+      "6": {
+        "value": "32",
+        "type": "fontSizes",
+        "description": "字号-等级-6"
+      },
+      "7": {
+        "value": "40",
+        "type": "fontSizes",
+        "description": "字号-等级-7"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "1": {
+        "value": "0",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "Title": {
+      "D1": {
+        "value": {
+          "fontFamily": "{fontFamilies.CN}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{lineHeights.7}",
+          "fontSize": "{fontSize.7}",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.none"
+        },
+        "type": "typography",
+        "description": "展示一级标题，Display 1    $font-D1,"
+      },
+      "D2": {
+        "value": {
+          "fontFamily": "{fontFamilies.CN}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "$lineHeights.6",
+          "fontSize": "{fontSize.6}",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.none"
+        },
+        "type": "typography",
+        "description": "展示二级标题,  Display 2,   $font-h2"
+      },
+      "D3": {
+        "value": {
+          "fontFamily": "{fontFamilies.CN}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "$lineHeights.5",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.none"
+        },
+        "type": "typography",
+        "description": "展示三级标题,   Display 3,    $font-h3"
+      },
+      "H1": {
+        "value": {
+          "fontFamily": "{fontFamilies.CN}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "$lineHeights.4",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.none"
+        },
+        "type": "typography",
+        "description": "页面一级标题,   Heading 1,   $font-h1"
+      },
+      "H2": {
+        "value": {
+          "fontFamily": "{fontFamilies.CN}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "$lineHeights.3",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.none"
+        },
+        "type": "typography",
+        "description": "页面二级标题,   Headling 2,  $font-h2"
+      },
+      "H3": {
+        "value": {
+          "fontFamily": "{fontFamilies.CN}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "$lineHeights.2",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.none"
+        },
+        "type": "typography",
+        "description": "页面三级标题,   Heading 3,  $font-h3"
+      }
+    },
+    "Body": {
+      "text-large": {
+        "value": {
+          "fontFamily": "{fontFamilies.CN}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "$lineHeights.3",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.none"
+        },
+        "type": "typography",
+        "description": "正文-常规-大,  $font-body-large"
+      },
+      "text-base": {
+        "value": {
+          "fontFamily": "{fontFamilies.CN}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "$lineHeights.2",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.none"
+        },
+        "type": "typography",
+        "description": "正文-常规,  $font-body-base"
+      },
+      "text-small": {
+        "value": {
+          "fontFamily": "{fontFamilies.CN}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.none"
+        },
+        "type": "typography",
+        "description": "正文-常规-小,  $font-body-small"
+      }
+    },
+    "其他样式 Style": {
+      "超链接文本": {
+        "value": {
+          "fontFamily": "{fontFamilies.CN}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "{lineHeights.2}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.underline"
+        },
+        "type": "typography",
+        "description": "正文 [大]   $font-text-large"
+      },
+      "删除文本": {
+        "value": {
+          "fontFamily": "{fontFamilies.CN}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "{lineHeights.2}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "$letterSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.line-through"
+        },
+        "type": "typography",
+        "description": "$font-type-l-default"
+      }
+    },
+    "Number": {
+      "N1": {
+        "value": {
+          "fontFamily": "{fontFamilies.Number}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "$lineHeights.4",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": "$letterSpacing.1",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.none"
+        },
+        "type": "typography"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      },
+      "line-through": {
+        "value": "line-through",
+        "type": "textDecoration"
+      }
+    }
+  },
+  "$themes": []
+}
