@@ -398,8 +398,8 @@
     }
   },
   "├ Color": {
-    "常用色": {
-      "品牌色": {
+    "常用色板": {
+      "分类色板": {
         "常规 [ --color-primary ]": {
           "value": "{基础色板.Blue.Blue [8]}",
           "type": "color",
@@ -421,31 +421,14 @@
           "description": "--color-primary-bg"
         }
       },
-      "文本": {
-        " --color-text-title": {
-          "value": "rgba({常用色.中性色.黑色 Black}, .9)",
-          "type": "color",
-          "description": "文本-标题色"
-        }
-      },
       "文本色": {
-        "正文 textDefault": {
-          "value": "rgba({常用色.中性色.黑色 Black}, .85)",
-          "type": "color",
-          "description": "--color-text-default"
-        },
-        "注释 textSecondary": {
-          "value": "rgba({常用色.中性色.黑色 Black}, .4)",
-          "type": "color",
-          "description": "--color-text-secondary"
-        },
         "禁用 textDisable": {
-          "value": "rgba({常用色.中性色.黑色 Black}, .3)",
+          "value": "rgba({中性色.黑色 Black}, .3)",
           "type": "color",
           "description": "--color-text-disable"
         },
         "反白 Dark": {
-          "value": "{常用色.中性色.白色 White}",
+          "value": "{中性色.白色 White}",
           "type": "color",
           "description": "--color-text-dark"
         },
@@ -471,130 +454,44 @@
           "type": "color",
           "description": "--color-border-tint"
         }
-      },
-      "中性色": {
-        "黑色 Black": {
-          "value": "rgba(0,0,0, 1)",
+      }
+    },
+    "坐标轴 Axis": {
+      "文本": {
+        "轴标题 Title": {
+          "value": "rgba({中性色.黑色 Black}, .85)",
           "type": "color",
-          "description": "--color-black-normal"
+          "description": " 轴标题"
         },
-        "白色 White": {
-          "value": "rgba(255,255,255, 1)",
+        "轴标签 label": {
+          "value": "rgba({中性色.黑色 Black}, .4)",
           "type": "color",
-          "description": "--color-white-normal"
+          "description": "轴标签 label"
         }
       },
-      "功能色": {
-        "默认 default": {
-          "Default-背景": {
-            "value": "{基础色板.Gray.Gray 1}",
-            "type": "color",
-            "description": "--color-default-normal"
-          },
-          "Default-悬停": {
-            "value": "{基础色板.Gray.Gray 0}",
-            "type": "color",
-            "description": "--color-default-hover"
-          },
-          "Default-点击": {
-            "value": "{基础色板.Gray.Gray 2}",
-            "type": "color",
-            "description": "--color-default-active"
-          },
-          "Disable-禁用": {
-            "value": "{基础色板.Gray.Gray 0}",
-            "type": "color",
-            "description": "--color-default-disable"
-          }
+      "图形": {
+        "轴线 axisLine": {
+          "value": "rgba({中性色.黑色 Black}, .4)",
+          "type": "color",
+          "description": "分隔线 splitLine"
         },
-        "通知 info": {
-          "Info-常规": {
-            "value": "{基础色板.Dark Blue.Dark Blue [8]}",
-            "type": "color",
-            "description": "--color-info-normal"
-          },
-          "Info-悬停": {
-            "value": "{基础色板.Dark Blue.Dark Blue 7}",
-            "type": "color",
-            "description": "--color-info-hover"
-          },
-          "Info-点击": {
-            "value": "{基础色板.Dark Blue.Dark Blue 9}",
-            "type": "color",
-            "description": "--color-info-artive"
-          },
-          "Info-背景": {
-            "value": "{基础色板.Dark Blue.Dark Blue 0}",
-            "type": "color",
-            "description": "--color-info-bg"
-          }
-        },
-        "成功 success": {
-          "Success-常规": {
-            "value": "{基础色板.Green.Green [8]}",
-            "type": "color",
-            "description": "--color-success-normal"
-          },
-          "Success-悬停": {
-            "value": "{基础色板.Green.Green 7}",
-            "type": "color",
-            "description": "--color-success-hover"
-          },
-          "Success-点击": {
-            "value": "{基础色板.Green.Green 9}",
-            "type": "color",
-            "description": "--color-success-artive"
-          },
-          "Success-背景": {
-            "value": "{基础色板.Green.Green 0}",
-            "type": "color",
-            "description": "--color-success-bg"
-          }
-        },
-        "警告 waring": {
-          "Waring-常规": {
-            "value": "{基础色板.Amber.Amber [8]}",
-            "type": "color",
-            "description": "--color-warning-normal"
-          },
-          "Waring-悬停": {
-            "value": "{基础色板.Amber.Amber 7}",
-            "type": "color",
-            "description": "--color-warning-hover"
-          },
-          "Waring-点击": {
-            "value": "{基础色板.Amber.Amber 9}",
-            "type": "color",
-            "description": "--color-warning-artive"
-          },
-          "Waring-背景": {
-            "value": "{基础色板.Amber.Amber 0}",
-            "type": "color",
-            "description": "--color-warning-bg"
-          }
-        },
-        "危险 danger": {
-          "Danger-常规": {
-            "value": "{基础色板.Red.Red [8]}",
-            "type": "color",
-            "description": "--color-danger-normal"
-          },
-          "Danger-悬停": {
-            "value": "{基础色板.Red.Red 7}",
-            "type": "color",
-            "description": "--color-danger-hover"
-          },
-          "Danger-点击": {
-            "value": "{基础色板.Red.Red 9}",
-            "type": "color",
-            "description": "--color-danger-artive"
-          },
-          "Danger-背景": {
-            "value": "{基础色板.Red.Red 0}",
-            "type": "color",
-            "description": "--color-danger-bg"
-          }
+        "分隔线 splitLine": {
+          "value": "rgba({中性色.黑色 Black}, .1)",
+          "type": "color",
+          "description": "分隔线 splitLine"
         }
+      }
+    },
+    "中性色": {
+      "黑色 Black": {
+        "value": "rgba(0,0,0, 1)",
+        "type": "color",
+        "description": "--color-black-normal"
+      },
+      "白色 White": {
+        "value": "rgba(255,255,255, 1)",
+        "type": "color",
+        "description": "--color-white-normal"
       }
     },
     "基础色板": {
