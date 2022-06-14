@@ -400,59 +400,122 @@
   "├ Color": {
     "常用色板": {
       "分类色板": {
-        "常规 [ --color-primary ]": {
-          "value": "{基础色板.Blue.Blue [8]}",
+        "序列 01": {
+          "value": "{基础色板.Dark Blue.Dark Blue 7}",
           "type": "color",
-          "description": "--color-primary-normal"
+          "description": "序列 1"
         },
-        "Primary-悬停": {
+        "序列 02": {
+          "value": "{基础色板.Light Blue.Light Blue 7}",
+          "type": "color",
+          "description": "序列 2"
+        },
+        "序列 03": {
+          "value": "{基础色板.Teal.Teal 7}",
+          "type": "color",
+          "description": "序列 3"
+        },
+        "序列 04": {
+          "value": "{基础色板.Green.Green 7}",
+          "type": "color",
+          "description": "序列 4"
+        },
+        "序列 05": {
+          "value": "{基础色板.Light Green.Light Green 7}",
+          "type": "color",
+          "description": "序列 5"
+        },
+        "序列 06": {
+          "value": "{基础色板.Yellow.Yellow 7}",
+          "type": "color",
+          "description": "序列 6"
+        },
+        "序列 07": {
+          "value": "{基础色板.Amber.Amber 7}",
+          "type": "color",
+          "description": "序列 7"
+        },
+        "序列 08": {
+          "value": "{基础色板.Orange.Orange 7}",
+          "type": "color",
+          "description": "序列 8"
+        },
+        "序列 09": {
+          "value": "{基础色板.Red.Red 7}",
+          "type": "color",
+          "description": "序列 9"
+        },
+        "序列 10": {
+          "value": "{基础色板.Pink.Pink 7}",
+          "type": "color",
+          "description": "序列 10"
+        },
+        "序列 11": {
+          "value": "{基础色板.Purple.Purple 7}",
+          "type": "color",
+          "description": "序列 11"
+        },
+        "序列 12": {
+          "value": "{基础色板.Violet.Violet 7}",
+          "type": "color",
+          "description": "序列 12"
+        },
+        "序列 13": {
+          "value": "{基础色板.Indigo.Indigo 7}",
+          "type": "color",
+          "description": "序列 13"
+        }
+      },
+      "有序色板": {
+        "序列 01": {
+          "value": "{基础色板.Blue.Blue 4}",
+          "type": "color",
+          "description": "序列 01"
+        },
+        "序列 02": {
+          "value": "{基础色板.Blue.Blue 5}",
+          "type": "color",
+          "description": "序列 02"
+        },
+        "序列 03": {
+          "value": "{基础色板.Blue.Blue 6}",
+          "type": "color",
+          "description": "序列 03"
+        },
+        "序列 04": {
           "value": "{基础色板.Blue.Blue 7}",
           "type": "color",
-          "description": "--color-primary-hover"
+          "description": "序列 04"
         },
-        "Primary-点击": {
+        "序列 05": {
+          "value": "{基础色板.Blue.Blue [8]}",
+          "type": "color",
+          "description": "序列 05"
+        },
+        "序列 06": {
           "value": "{基础色板.Blue.Blue 9}",
           "type": "color",
-          "description": "--color-primary-artive"
+          "description": "序列 06"
         },
-        "Primary-背景": {
-          "value": "{基础色板.Blue.Blue 0}",
+        "序列 07": {
+          "value": "{基础色板.Blue.Blue 10}",
           "type": "color",
-          "description": "--color-primary-bg"
-        }
-      },
-      "文本色": {
-        "禁用 textDisable": {
-          "value": "rgba({中性色.黑色 Black}, .3)",
-          "type": "color",
-          "description": "--color-text-disable"
+          "description": "序列 07"
         },
-        "反白 Dark": {
-          "value": "{中性色.白色 White}",
+        "序列 08": {
+          "value": "{基础色板.Blue.Blue 11}",
           "type": "color",
-          "description": "--color-text-dark"
+          "description": "序列 08"
         },
-        "链接 Link": {
-          "value": "{常用色.品牌色.常规 [ --color-primary ]}",
+        "序列 09": {
+          "value": "{基础色板.Blue.Blue 12}",
           "type": "color",
-          "description": "--color-text-link"
-        }
-      },
-      "线条": {
-        "Line-深": {
-          "value": "{基础色板.Gray.Gray 2}",
-          "type": "color",
-          "description": "--color-border-shade"
+          "description": "序列 09"
         },
-        "Line-默认": {
-          "value": "{基础色板.Gray.Gray 1}",
+        "序列 10": {
+          "value": "{基础色板.Blue.Blue 13}",
           "type": "color",
-          "description": "--color-border-base"
-        },
-        "Line- 浅": {
-          "value": "{基础色板.Gray.Gray 0}",
-          "type": "color",
-          "description": "--color-border-tint"
+          "description": "序列 10"
         }
       }
     },
@@ -1424,34 +1487,6 @@
         "Gray 14": {
           "value": "#0f1216",
           "type": "color"
-        }
-      }
-    },
-    "主题化": {
-      "趋势定义": {
-        "上升": {
-          "value": "#ce292a",
-          "type": "color",
-          "description": "红升"
-        },
-        "下降": {
-          "value": "#19a683",
-          "type": "color",
-          "description": "红升绿降"
-        }
-      },
-      "表格 Table": {
-        "表头TH": {
-          "背景色": {
-            "value": "{基础色板.Gray.Gray 0}",
-            "type": "color",
-            "description": "table-th-bg-color"
-          },
-          "分隔线": {
-            "value": "{基础色板.Gray.Gray 2}",
-            "type": "color",
-            "description": "table-th-drivder-color"
-          }
         }
       }
     }
