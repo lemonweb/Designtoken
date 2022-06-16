@@ -1746,36 +1746,6 @@
         "description": "正文-常规-小,  $font-body-small"
       }
     },
-    "其他样式 Style": {
-      "超链接文本": {
-        "value": {
-          "fontFamily": "{fontFamilies.CN}",
-          "fontWeight": "{font-weight.regular}",
-          "lineHeight": "{lineHeights.2}",
-          "fontSize": "{fontSize.2}",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.underline"
-        },
-        "type": "typography",
-        "description": "正文 [大]   $font-text-large"
-      },
-      "删除文本": {
-        "value": {
-          "fontFamily": "{fontFamilies.CN}",
-          "fontWeight": "{font-weight.regular}",
-          "lineHeight": "{lineHeights.2}",
-          "fontSize": "{fontSize.2}",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.line-through"
-        },
-        "type": "typography",
-        "description": "$font-type-l-default"
-      }
-    },
     "Number": {
       "N1": {
         "value": {
